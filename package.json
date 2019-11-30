@@ -1,7 +1,7 @@
 {
-    "name": "google-cloud-functions-typescript",
-    "version": "0.0.4",
-    "description": "This is a TypeScript based Cloud Functions template.",
+    "name": "eurus-pro-cloud-functions-ts",
+    "version": "0.0.1",
+    "description": "All global functions for EURUS PRO backend functions.",
     "main": "index.js",
     "config": {
         "function_name": "helloWorld",
@@ -26,9 +26,11 @@
         "functions",
         "typescript"
     ],
-    "author": "\"@flatfisher <kyoheitsuda@flatfish.jp> (https://kyohei.flatfish.jp)",
+    "author": "\"@euruspro <adrian.higuita@eurus.pro> (https://hcanalitica.com)",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "firebase-admin": "^8.8.0"
+    },
     "devDependencies": {
         "@types/chai": "^4.2.5",
         "@types/chai-http": "^4.2.0",
